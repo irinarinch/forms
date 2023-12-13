@@ -1,0 +1,25 @@
+.hex {
+  width: 120px;
+  padding: 13px 20px;
+  background-color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cccccc;
+  padding: 100px;
+}
+
+.rgb {
+  width: 160px;  
+  background-color: rgba(5, 5, 5, 0.5);
+  color: white;  
+  margin-top: 3px;
+  text-align: center;
+  padding: 10px 0;  
+}

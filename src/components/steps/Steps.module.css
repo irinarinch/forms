@@ -1,0 +1,65 @@
+.form {
+  display: flex; 
+}
+
+.date {
+  margin-right: 10px;
+}
+
+.distance {
+  margin-right: 10px;
+}
+
+.label {
+  display: block; 
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input {
+  border: 1px solid #171717;  
+  padding: 10px 20px;
+  border-radius: 5px;   
+  font-size: 13px; 
+  height: 14px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #171717;  
+  padding: 10px 25px;
+  text-align: center;  
+  font-size: 13px;  
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+th {
+  font-weight: normal;
+  width: 180px; 
+  padding: 15px;
+}
+
+tbody {
+  box-shadow: 0 0 0 1px #171717;
+  border-radius: 5px;   
+}
+
+td {
+  padding: 10px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.icon {
+  margin: 0 5px;
+  vertical-align: sub;
+  cursor: pointer;
+}

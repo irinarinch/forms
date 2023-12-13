@@ -1,0 +1,51 @@
+.images_form {
+  width: 635px;
+  position: relative;
+  outline: 1px solid #333;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.images_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images_input {  
+  padding: 100px 200px;
+  opacity: 0;  
+  margin-bottom: 0;  
+  cursor: pointer;
+}
+
+.images_label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+}
+
+.image {
+  width: 100%;
+}
+
+.image_remover {
+  position: absolute;
+  width: 20px;
+  height: 20px;  
+  top: -10px;
+  right: -10px;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.image_box {
+  width: 30%;
+  position: relative;  
+  margin-right: auto;
+  margin-top: 20px;
+}
